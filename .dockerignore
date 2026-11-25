@@ -1,0 +1,73 @@
+
+# =========================
+# Version Control
+# =========================
+.git/
+.gitignore
+.gitattributes
+
+# =========================
+# CI / CD
+# =========================
+Jenkinsfile
+.jenkins/
+
+# =========================
+# Kubernetes Manifests
+# =========================
+manifests/
+
+# =========================
+# Node / npm
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# =========================
+# Python (if present)
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Docker Files
+# =========================
+Dockerfile
+.dockerignore
+
+# =========================
+# Logs / Temporary Files
+# =========================
+*.log
+*.tmp
+tmp/
+
+# =========================
+# Secrets
+# =========================
+.env.*
+*.pem
+*.key
+*.cert
+secrets/
