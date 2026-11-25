@@ -15,7 +15,7 @@ pipeline {
         GIT_CREDENTIALS_ID = 'github-cred'
 
         // Change this to your Foodista repository URL
-        MANIFEST_REPO   = 'YOUR_FOODISTA_GITHUB_REPOSITORY_URL'
+        MANIFEST_REPO   = 'https://github.com/Afnan3311/foodista-website.git'
         MANIFEST_BRANCH = 'main'
     }
 
