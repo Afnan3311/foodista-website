@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: foodista
-          image: afnan2004/foodista:latest
+          image: afnan2004/foodista_static_website:1
           imagePullPolicy: Always
 
           ports:
